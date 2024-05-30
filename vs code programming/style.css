@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/242/251/desktop-wallpaper-hehuan-mountain-nantou-taiwan-nature-backgrounds-and.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(172, 172, 172, 0); 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(69, 73, 68, 0.24);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ece0e0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #330606;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #01360c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e9f0f3;
+    padding: 10px;
+    margin: 10px 0; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-actions button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.task-actions button.complete {
+    color: #28a745;
+}
+
+.task-actions button.delete {
+    color: #dc3545;
+}
+
+.task-actions button.complete:hover {
+    color: #218838;
+}
+
+.task-actions button.delete:hover {
+    color: #c82333;
+}
